@@ -28,4 +28,4 @@ if __name__ == '__main__':
     ]
 
     for text, reversed_text in cases:
-        assert reverse2(text) == reversed_text
+        assert reverse2(text) == reversed_text # <-- вызывает ошибку AssertionError
