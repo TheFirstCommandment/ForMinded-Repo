@@ -20,14 +20,9 @@ while i < j:
     elif not listSample[j].isalpha():
         j -= 1
     else:
-        # swap the element in the list
-        # if both elements are alphabets
         listSample[i], listSample[j] = listSample[j], listSample[i]
         i += 1
         j -= 1
-
-# convert list into string
-# by concatinating each element in the list
 strOut = ''.join(listSample)
 strOut2 = ''.join(listSample2)
 print(strOut, strOut2)
